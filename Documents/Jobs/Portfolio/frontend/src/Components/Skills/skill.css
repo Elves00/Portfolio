@@ -1,13 +1,20 @@
-#options{
+#skill{
     color: darkgray;
+    text-align: center;
 }
 
-.container{
+#skill .container{
     display: flex;
     flex-wrap: wrap;
     background-color: blue;
     justify-content: center;
     align-items: center;
     gap: 50px 20px;
+    overflow: hidden;
     
+}
+
+.skill h1{
+    text-align: left;
+    margin-left: 20px;
 }

@@ -1,15 +1,20 @@
 import "./contact.css";
-
+import LinkedIn from "../Images/LinkedIn.png";
 const Contact = () => {
   return (
     <>
-      <contact id="options" className="skill">
+      <contact id="contact" className="skill">
         <div className="container">
-          <div>Gmail</div>
-          <div>Linkden</div>
-          <div>Git
+          <div>
+            <a href="https://www.linkedin.com/feed/?trk=nav_logo">
+              <button className="buttons">
+                <img src={LinkedIn} alt="LinkedIn"></img>
+              </button>
+            </a>
           </div>
-           </div>
+          <div>Linkden</div>
+          <div>Git</div>
+        </div>
       </contact>
     </>
   );

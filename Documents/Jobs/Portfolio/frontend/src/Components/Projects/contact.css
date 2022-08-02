@@ -1,0 +1,15 @@
+.buttons{
+    background-color: white;
+    border-color: aliceblue;
+    border-style:none;
+}
+
+#contact .container{
+display: flex;
+}
+
+.buttons img{
+    height: 20px;
+    width: 20px;
+}
+

@@ -1,11 +1,16 @@
 .buttons{
-    background-color: white;
+    background-color: violet;
     border-color: aliceblue;
     border-style:none;
 }
 
 #contact .container{
 display: flex;
+}
+
+#contact{
+    width: auto;
+    
 }
 
 .buttons img{

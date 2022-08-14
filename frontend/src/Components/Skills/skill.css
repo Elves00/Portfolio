@@ -1,6 +1,7 @@
 #skill{
     color: darkgray;
     text-align: center;
+    height: 100vh;
 }
 
 #skill .container{

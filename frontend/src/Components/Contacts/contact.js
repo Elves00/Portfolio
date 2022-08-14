@@ -4,7 +4,7 @@ import GitHub from "../Images/GitHubLight.png"
 const Contact = () => {
   return (
     <>
-      <contact id="contact" className="skill">
+      <div id="contact" className="skill">
         <div className="container">
           <div>
             <a href="https://www.linkedin.com/feed/?trk=nav_logo">
@@ -19,7 +19,7 @@ const Contact = () => {
               </button>
             </a></div>
         </div>
-      </contact>
+      </div>
     </>
   );
 };

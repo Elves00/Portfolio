@@ -1,25 +1,26 @@
+
 import "./header.css";
 
 const Header = () => {
   return (
     <>
       <header className="header">
-        
+        <div id = "home">
         <ul className="nav">
           <li>
-            <a href="#skill">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#skill">Skills</a>
           </li>
           <li>
-            <a href="#skill">Project</a>
+            <a href="#project">Project</a>
           </li>
           <li>
-            <a href="#skill">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
-       
+        </div>
       </header>
     </>
   );

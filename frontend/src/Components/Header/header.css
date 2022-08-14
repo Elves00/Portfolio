@@ -1,9 +1,12 @@
 header {
-  color: aqua;
+  color: aliceblue;
   width: 100%;
-  background-color: brown;
   padding: 0px;
-  margin: 0px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0px;
+  background-color:   rgb(1, 1, 20);
+
 }
 
 .nav {
@@ -13,7 +16,8 @@ header {
   width: 80%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: right;
+ 
 }
 
 .nav li {
@@ -25,5 +29,5 @@ header {
 
 .nav li:hover {
   transition: 0.4s;
-  background-color: red;
+  background-color: rgb(36, 1, 1);
 }

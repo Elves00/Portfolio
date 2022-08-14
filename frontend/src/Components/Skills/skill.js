@@ -22,6 +22,14 @@ const Skill = () => {
             <h1>React</h1>
             <p>used for this project and a few others</p>
           </div>
+          <div className="skill">
+            <h1>King kong skill</h1>
+            <p>used for this project and a few others</p>
+          </div>
+          <div className="skill">
+            <h1>Donkey horse</h1>
+            <p>used for this project and a few others</p>
+          </div>
         </div>
       </div>
     </>

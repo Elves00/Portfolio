@@ -8,13 +8,26 @@
 display: flex;
 }
 
+
 #contact{
     width: auto;
+    display: flex;
+    color: aliceblue;
     
 }
+
+.headshot{
+    width: 500px;
+    height: 500px;
+}
+
 
 .buttons img{
     height: 20px;
     width: 20px;
 }
 
+.profile{
+    width: 500px;
+    margin-left: 22px;
+}

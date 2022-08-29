@@ -5,6 +5,16 @@ const Skill = () => {
     <>
       <div id="skill" >
         <h1>Technical skills</h1>
+        <div>
+        <ul>
+            
+              <li>
+              Css
+              </li>
+              <li>HTML
+              </li>
+            </ul>
+        </div>
         <div className="container">
           <div className="skill">
             <h1>Java</h1>

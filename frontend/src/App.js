@@ -2,7 +2,7 @@
 import Header from "./Components/Header/header";
 import Skill from "./Components/Skills/skill";
 import Project from "./Components/Project/project";
-import Contact from "./Components/Contacts/contact";
+import Contact from "./Components/Profile/profile";
 import Footer from "./Components/Footer/footer";
 import "./App.css";
 function App() {
@@ -12,7 +12,6 @@ function App() {
     <Contact/>
     <Skill/>
     <Project/>
-   
     <Footer/>
     </div>
   );

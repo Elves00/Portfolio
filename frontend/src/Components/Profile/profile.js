@@ -1,11 +1,11 @@
-import "./contact.css";
+import "./profile.css";
 import LinkedIn from "../Images/LinkedIn.png";
 import GitHub from "../Images/GitHubLight.png";
 import Brecon from "../Images/Brecon.jpg"
-const Contact = () => {
+const Profile = () => {
   return (
     <>
-      <div id="contact" className="skill">
+      <div id="profile" className="skill">
      
        <img className="headshot" alt="Headshot" src={Brecon}></img>
         <div className="profile">
@@ -43,4 +43,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Profile;

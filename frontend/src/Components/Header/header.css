@@ -1,33 +1,43 @@
-header {
+.header {
   color: aliceblue;
   width: 100%;
   padding: 0px;
   margin-bottom: 20px;
-  position: sticky;
   top: 0px;
-  background-color:   rgb(1, 1, 20);
+  background-color: rgba(9, 0, 17, 0);
+  
 
 }
+.header.active{
+  position: sticky;
+  background-color: rgba(9, 0, 17, 1);
+  box-shadow: -1px 11px 24px -11px rgb(17, 0, 32);
+  transition: 0.4s;
+}
+
+
 
 .nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 80%;
-  height: 100%;
+  height: 60px;
   display: flex;
   justify-content: right;
  
 }
 
-.nav li {
+.nav a {
   display: inline;
-  width: 10%;
-  height: 40px;
+  width: 100px;
+  background-color: #090011;
   padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
-.nav li:hover {
+.nav a:hover {
   transition: 0.4s;
-  background-color: rgb(36, 1, 1);
+  background-color: #270048;
 }

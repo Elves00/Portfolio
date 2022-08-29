@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(1, 1, 20);
+    background-color: #090011;
     gap: 20px;
     
 }
@@ -23,3 +23,52 @@
     width: 300px;
     height: 300px;
 }
+.project a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+.boid{
+
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.boid-1{
+    content: "";
+    position: relative;
+    top: 20px;
+    left:-270px
+}
+
+
+.boid-2{
+    position: relative;    
+    top:-280px ;
+    left:-15%;
+}
+
+
+.boid:hover .boid-1{
+    translate: 150px;
+    animation-duration: 3.5s;
+    animation-name: boid;
+    animation-iteration-count: infinite;
+}
+.boid:hover .boid-2 *{
+    background-color: rgba(255, 100, 80, 0);
+    transition: 1s;
+}
+
+@keyframes boid {
+    from {
+        translate:0px;
+    }
+    to {
+        translate:700px
+    }
+}
+
+

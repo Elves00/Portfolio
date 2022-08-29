@@ -1,27 +1,33 @@
-
+import React, {useState} from "react";
 import "./header.css";
 
 const Header = () => {
+
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+    header.classList.toggle("active", window.scrollY > 100);
+  });
+
   return (
     <>
-      <header className="header">
-        <div id = "home">
-        <ul className="nav">
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#skill">Skills</a>
-          </li>
-          <li>
-            <a href="#project">Project</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+      <div className="header">
+        <div id="home">
+          <ul className="nav">
+            <a href="#home">
+              <li>Home</li>
+            </a>
+            <a href="#skill">
+              <li>Skills</li>
+            </a>
+            <a href="#project">
+              <li>Project</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
         </div>
-      </header>
+      </div>
     </>
   );
 };

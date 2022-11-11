@@ -1,25 +1,24 @@
-import "./header.css";
+import "./header.scss";
 
 const Header = () => {
   return (
     <>
-      <header className="header">
-        
-        <ul className="nav">
-          <li>
+      <div className="header">
+        <ul className="header__navbar">
+          <li className="header__navbar-item">
             <a href="#skill">Home</a>
           </li>
-          <li>
+          <li className="header__navbar-item">
             <a href="#skill">Skills</a>
           </li>
-          <li>
+          <li className="header__navbar-item">
             <a href="#skill">Project</a>
           </li>
-          <li>
+          <li className="header__navbar-item">
             <a href="#skill">Contact</a>
           </li>
         </ul>
-      </header>
+      </div>
     </>
   );
 };

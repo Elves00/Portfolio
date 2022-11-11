@@ -1,12 +1,11 @@
-header {
+.header {
   color: aqua;
   width: 100%;
   background-color: brown;
   padding: 0px;
   margin: 0px;
-}
 
-.nav {
+  &__nav {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -14,16 +13,19 @@ header {
   height: 100%;
   display: flex;
   justify-content: center;
+  }
+
+  &__navbar-item{
+    display: inline;
+    width: 10%;
+    height: 40px;
+    padding: 10px;
+  }
+  &__navbar-item:hover{
+    transition: 0.4s;
+    background-color: red;
+  }
+
 }
 
-.nav li {
-  display: inline;
-  width: 10%;
-  height: 40px;
-  padding: 10px;
-}
 
-.nav li:hover {
-  transition: 0.4s;
-  background-color: red;
-}
